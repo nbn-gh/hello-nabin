@@ -1,0 +1,28 @@
+.main-content {
+  padding: 0 200px;
+}
+
+@media screen and (max-width: 992px) {
+  .main-content {
+    padding: 0 25px;
+  }
+}
+
+/* targetting screen smaller than 768px */
+@media screen and (max-width: 768px) {
+  .main-content {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-content {
+    padding: 0 25px;
+  }
+}

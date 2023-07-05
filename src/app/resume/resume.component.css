@@ -1,0 +1,58 @@
+.exp-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.position {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.exp-content {
+  margin-left: 20px;
+}
+
+.expe-wrapper {
+  margin-bottom: 10px;
+}
+
+.resume-content {
+  display: flex;
+  width: 700px;
+}
+
+.list-headers {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+
+}
+
+.list-headers button {
+  height: 50px;
+  border: none;
+  border-left: 2px solid var(--primary-color);
+}
+
+.list-headers button:hover {
+  height: 50px;
+  border: none;
+  border-right: 2px solid var(--primary-color);
+}
+
+.list-headers .active {
+  border-left: 2px solid var(--primary-color);
+  border-right: 2px solid var(--primary-color);
+}
+.contents{
+  margin-left: 20px;
+  padding: 10px 5px;
+}
+
+.header{
+
+}
+
+.company-name{
+  color: blue;
+}

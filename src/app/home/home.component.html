@@ -1,0 +1,110 @@
+<div class="content-section" id="jumbotron">
+  <div class="inner-content">
+    <div class="greeting">Hello, my name is</div>
+    <div class="name">Nabin Ghimire</div>
+    <div class="intro">
+      Welcome to my page. I am a software engineer with several years of
+      experience specializing mainly in .NET, Angular, Azure and related front
+      end and backend technologies.
+    </div>
+  </div>
+</div>
+
+<div class="content-section" id="about">
+  <div class="inner-content sm-content">
+    <div class="info">
+      <h2 class="section-header">About me</h2>
+      <div class="content-main">
+        <div class="card">
+          <div>
+            Hello, Again! I have been working as the software engineer for
+            several years. Primarily focused on the web technology related .NET,
+            Angular and Azure.
+          </div>
+          <div>
+            Other than professional career as the software engineer, I am
+            interested in cooking or say watch cooking and try to recreate that
+            receipe.
+          </div>
+          <div>
+            Little about me, I was born and raised in the country of Himalayas,
+            home to world's highest mountain in the world, Mount Everest, Nepal.
+            I have been living in United Stated since 2008. I came here right
+            after highschool for undergraduate studies. I have completed BSc in
+            Electrical and Electronics Engineering from University of Texas at
+            Arlington, TX and MBA in Project Management from Amberton
+            University, Garland, TX.
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <div class="image-div"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-section" id="experience">
+  <div class="inner-content sm-content">
+    <div class="info">
+      <h2 class="section-header">Experience</h2>
+      <div class="content-main">
+        <div class="card">
+          <ul class="experience-summary">
+            <li>
+              Over 6 years of progressive experience in analysis, designing and
+              developing web applications using Microsoft .NET Technologies like
+              ASP.NET, ASP.NET Core, MVC 4/5, ADO.NET, Entity Framework, C#
+            </li>
+            <li>
+              Experience in building front end application using Angular 8+,
+              HTML, CSS, Typescript, Bootstrap, PrimeNG
+            </li>
+            <li>Experience in working with Azure Technologies <br /></li>
+          </ul>
+
+          <div class="margin-top-10 sub-header">Professional Experience</div>
+          <div class="padding-left-20">
+            <ng-container *ngFor="let experience of professionalExperience">
+              <div class="company-name">
+                <div>
+                  {{experience.position}}
+                  <a [href]="experience.companyWebsite" target="_blank">@{{experience.companyName}}</a>
+                </div>
+                <div class="from-to-date">{{experience.from}} - {{experience.to}}</div>
+              </div>
+
+            </ng-container>
+          </div>
+
+          <div class="margin-top-10 sub-header">Educational Background</div>
+          <div class="padding-left-20">
+            <ng-container *ngFor="let edu of educationalBackground">
+              <div class="company-name">
+                <div>
+                  {{edu.degree}}
+                  <a [href]="edu.universityWebsite" target="_blank">@{{edu.universityName}}</a>
+                </div>
+                <div class="from-to-date">{{edu.graduationDate}}</div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-section" id="contact">
+  <div class="inner-content sm-content">
+    <div class="info">
+      <h2 class="section-header">Contact Me</h2>
+      <div class="content-main">
+        <div class="card"></div>
+      </div>
+    </div>
+  </div>
+</div>
