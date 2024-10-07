@@ -10,9 +10,16 @@ export class HomeComponent {
   professionalExperience = [
     {
       'position': 'Fullstack Software Engineer',
+      'companyName': 'R1 RCM',
+      'from': 'Aug 2023',
+      'to': 'present',
+      'companyWebsite': 'https://www.r1rcm.com/'
+    },
+    {
+      'position': 'Fullstack Software Engineer',
       'companyName': 'Adia',
       'from': 'Feb 2022',
-      'to': 'present',
+      'to': 'Jun 2023',
       'companyWebsite': 'https://adia.works/'
     },
     {
